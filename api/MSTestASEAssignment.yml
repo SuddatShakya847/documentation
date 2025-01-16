@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: MSTestASEAssignment
+  commentId: N:MSTestASEAssignment
+  id: MSTestASEAssignment
+  children:
+  - MSTestASEAssignment.ASEUnitTests
+  - MSTestASEAssignment.Canvas
+  - MSTestASEAssignment.IfElseTest
+  - MSTestASEAssignment.MockCanvas
+  - MSTestASEAssignment.TriCommand
+  - MSTestASEAssignment.TriCommandTests
+  langs:
+  - csharp
+  - vb
+  name: MSTestASEAssignment
+  nameWithType: MSTestASEAssignment
+  fullName: MSTestASEAssignment
+  type: Namespace
+  assemblies:
+  - MSTestASEAssignment
+references:
+- uid: MSTestASEAssignment.ASEUnitTests
+  commentId: T:MSTestASEAssignment.ASEUnitTests
+  href: MSTestASEAssignment.ASEUnitTests.html
+  name: ASEUnitTests
+  nameWithType: ASEUnitTests
+  fullName: MSTestASEAssignment.ASEUnitTests
+- uid: MSTestASEAssignment.IfElseTest
+  commentId: T:MSTestASEAssignment.IfElseTest
+  href: MSTestASEAssignment.IfElseTest.html
+  name: IfElseTest
+  nameWithType: IfElseTest
+  fullName: MSTestASEAssignment.IfElseTest
+- uid: MSTestASEAssignment.TriCommandTests
+  commentId: T:MSTestASEAssignment.TriCommandTests
+  href: MSTestASEAssignment.TriCommandTests.html
+  name: TriCommandTests
+  nameWithType: TriCommandTests
+  fullName: MSTestASEAssignment.TriCommandTests
+- uid: MSTestASEAssignment.MockCanvas
+  commentId: T:MSTestASEAssignment.MockCanvas
+  href: MSTestASEAssignment.MockCanvas.html
+  name: MockCanvas
+  nameWithType: MockCanvas
+  fullName: MSTestASEAssignment.MockCanvas
+- uid: MSTestASEAssignment.TriCommand
+  commentId: T:MSTestASEAssignment.TriCommand
+  href: MSTestASEAssignment.TriCommand.html
+  name: TriCommand
+  nameWithType: TriCommand
+  fullName: MSTestASEAssignment.TriCommand
+- uid: MSTestASEAssignment.Canvas
+  commentId: T:MSTestASEAssignment.Canvas
+  parent: MSTestASEAssignment
+  href: MSTestASEAssignment.Canvas.html
+  name: Canvas
+  nameWithType: Canvas
+  fullName: MSTestASEAssignment.Canvas
+- uid: MSTestASEAssignment
+  commentId: N:MSTestASEAssignment
+  href: MSTestASEAssignment.html
+  name: MSTestASEAssignment
+  nameWithType: MSTestASEAssignment
+  fullName: MSTestASEAssignment

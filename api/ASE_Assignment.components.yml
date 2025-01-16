@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment.components
+  commentId: N:ASE_Assignment.components
+  id: ASE_Assignment.components
+  children:
+  - ASE_Assignment.components.MyCommandFactory
+  - ASE_Assignment.components.MyCommandParser
+  - ASE_Assignment.components.MyStoredProgram
+  langs:
+  - csharp
+  - vb
+  name: ASE_Assignment.components
+  nameWithType: ASE_Assignment.components
+  fullName: ASE_Assignment.components
+  type: Namespace
+  assemblies:
+  - ASE Assignment
+references:
+- uid: ASE_Assignment.components.MyCommandFactory
+  commentId: T:ASE_Assignment.components.MyCommandFactory
+  parent: ASE_Assignment.components
+  href: ASE_Assignment.components.MyCommandFactory.html
+  name: MyCommandFactory
+  nameWithType: MyCommandFactory
+  fullName: ASE_Assignment.components.MyCommandFactory
+- uid: ASE_Assignment.components.MyCommandParser
+  commentId: T:ASE_Assignment.components.MyCommandParser
+  href: ASE_Assignment.components.MyCommandParser.html
+  name: MyCommandParser
+  nameWithType: MyCommandParser
+  fullName: ASE_Assignment.components.MyCommandParser
+- uid: ASE_Assignment.components.MyStoredProgram
+  commentId: T:ASE_Assignment.components.MyStoredProgram
+  parent: ASE_Assignment.components
+  href: ASE_Assignment.components.MyStoredProgram.html
+  name: MyStoredProgram
+  nameWithType: MyStoredProgram
+  fullName: ASE_Assignment.components.MyStoredProgram
+- uid: ASE_Assignment.components
+  commentId: N:ASE_Assignment.components
+  href: ASE_Assignment.html
+  name: ASE_Assignment.components
+  nameWithType: ASE_Assignment.components
+  fullName: ASE_Assignment.components
+  spec.csharp:
+  - uid: ASE_Assignment
+    name: ASE_Assignment
+    href: ASE_Assignment.html
+  - name: .
+  - uid: ASE_Assignment.components
+    name: components
+    href: ASE_Assignment.components.html
+  spec.vb:
+  - uid: ASE_Assignment
+    name: ASE_Assignment
+    href: ASE_Assignment.html
+  - name: .
+  - uid: ASE_Assignment.components
+    name: components
+    href: ASE_Assignment.components.html

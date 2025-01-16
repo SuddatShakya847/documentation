@@ -1,0 +1,507 @@
+### YamlMime:ManagedReference
+items:
+- uid: MSTestASEAssignment.IfElseTest
+  commentId: T:MSTestASEAssignment.IfElseTest
+  id: IfElseTest
+  parent: MSTestASEAssignment
+  children:
+  - MSTestASEAssignment.IfElseTest.ElseCommand_ChecksInvalidParameters
+  - MSTestASEAssignment.IfElseTest.ElseCommand_ExecutesCorrectly
+  - MSTestASEAssignment.IfElseTest.ElseCommand_HandlesValidParameters
+  - MSTestASEAssignment.IfElseTest.IfCommand_ExecutesConditionFalse
+  - MSTestASEAssignment.IfElseTest.IfCommand_ExecutesConditionTrue
+  langs:
+  - csharp
+  - vb
+  name: IfElseTest
+  nameWithType: IfElseTest
+  fullName: MSTestASEAssignment.IfElseTest
+  type: Class
+  source:
+    remote:
+      path: MSTestASEAssignment/IfElseTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SuddatShakya847.git
+    id: IfElseTest
+    path: ../MSTestASEAssignment/IfElseTest.cs
+    startLine: 6
+  assemblies:
+  - MSTestASEAssignment
+  namespace: MSTestASEAssignment
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class IfElseTest
+    content.vb: >-
+      <TestClass>
+
+      Public Class IfElseTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: MSTestASEAssignment.IfElseTest.IfCommand_ExecutesConditionTrue
+  commentId: M:MSTestASEAssignment.IfElseTest.IfCommand_ExecutesConditionTrue
+  id: IfCommand_ExecutesConditionTrue
+  parent: MSTestASEAssignment.IfElseTest
+  langs:
+  - csharp
+  - vb
+  name: IfCommand_ExecutesConditionTrue()
+  nameWithType: IfElseTest.IfCommand_ExecutesConditionTrue()
+  fullName: MSTestASEAssignment.IfElseTest.IfCommand_ExecutesConditionTrue()
+  type: Method
+  source:
+    remote:
+      path: MSTestASEAssignment/IfElseTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SuddatShakya847.git
+    id: IfCommand_ExecutesConditionTrue
+    path: ../MSTestASEAssignment/IfElseTest.cs
+    startLine: 9
+  assemblies:
+  - MSTestASEAssignment
+  namespace: MSTestASEAssignment
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void IfCommand_ExecutesConditionTrue()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub IfCommand_ExecutesConditionTrue()
+  overload: MSTestASEAssignment.IfElseTest.IfCommand_ExecutesConditionTrue*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: MSTestASEAssignment.IfElseTest.IfCommand_ExecutesConditionFalse
+  commentId: M:MSTestASEAssignment.IfElseTest.IfCommand_ExecutesConditionFalse
+  id: IfCommand_ExecutesConditionFalse
+  parent: MSTestASEAssignment.IfElseTest
+  langs:
+  - csharp
+  - vb
+  name: IfCommand_ExecutesConditionFalse()
+  nameWithType: IfElseTest.IfCommand_ExecutesConditionFalse()
+  fullName: MSTestASEAssignment.IfElseTest.IfCommand_ExecutesConditionFalse()
+  type: Method
+  source:
+    remote:
+      path: MSTestASEAssignment/IfElseTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SuddatShakya847.git
+    id: IfCommand_ExecutesConditionFalse
+    path: ../MSTestASEAssignment/IfElseTest.cs
+    startLine: 25
+  assemblies:
+  - MSTestASEAssignment
+  namespace: MSTestASEAssignment
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void IfCommand_ExecutesConditionFalse()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub IfCommand_ExecutesConditionFalse()
+  overload: MSTestASEAssignment.IfElseTest.IfCommand_ExecutesConditionFalse*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: MSTestASEAssignment.IfElseTest.ElseCommand_ChecksInvalidParameters
+  commentId: M:MSTestASEAssignment.IfElseTest.ElseCommand_ChecksInvalidParameters
+  id: ElseCommand_ChecksInvalidParameters
+  parent: MSTestASEAssignment.IfElseTest
+  langs:
+  - csharp
+  - vb
+  name: ElseCommand_ChecksInvalidParameters()
+  nameWithType: IfElseTest.ElseCommand_ChecksInvalidParameters()
+  fullName: MSTestASEAssignment.IfElseTest.ElseCommand_ChecksInvalidParameters()
+  type: Method
+  source:
+    remote:
+      path: MSTestASEAssignment/IfElseTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SuddatShakya847.git
+    id: ElseCommand_ChecksInvalidParameters
+    path: ../MSTestASEAssignment/IfElseTest.cs
+    startLine: 41
+  assemblies:
+  - MSTestASEAssignment
+  namespace: MSTestASEAssignment
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void ElseCommand_ChecksInvalidParameters()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub ElseCommand_ChecksInvalidParameters()
+  overload: MSTestASEAssignment.IfElseTest.ElseCommand_ChecksInvalidParameters*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: MSTestASEAssignment.IfElseTest.ElseCommand_ExecutesCorrectly
+  commentId: M:MSTestASEAssignment.IfElseTest.ElseCommand_ExecutesCorrectly
+  id: ElseCommand_ExecutesCorrectly
+  parent: MSTestASEAssignment.IfElseTest
+  langs:
+  - csharp
+  - vb
+  name: ElseCommand_ExecutesCorrectly()
+  nameWithType: IfElseTest.ElseCommand_ExecutesCorrectly()
+  fullName: MSTestASEAssignment.IfElseTest.ElseCommand_ExecutesCorrectly()
+  type: Method
+  source:
+    remote:
+      path: MSTestASEAssignment/IfElseTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SuddatShakya847.git
+    id: ElseCommand_ExecutesCorrectly
+    path: ../MSTestASEAssignment/IfElseTest.cs
+    startLine: 51
+  assemblies:
+  - MSTestASEAssignment
+  namespace: MSTestASEAssignment
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void ElseCommand_ExecutesCorrectly()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub ElseCommand_ExecutesCorrectly()
+  overload: MSTestASEAssignment.IfElseTest.ElseCommand_ExecutesCorrectly*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: MSTestASEAssignment.IfElseTest.ElseCommand_HandlesValidParameters
+  commentId: M:MSTestASEAssignment.IfElseTest.ElseCommand_HandlesValidParameters
+  id: ElseCommand_HandlesValidParameters
+  parent: MSTestASEAssignment.IfElseTest
+  langs:
+  - csharp
+  - vb
+  name: ElseCommand_HandlesValidParameters()
+  nameWithType: IfElseTest.ElseCommand_HandlesValidParameters()
+  fullName: MSTestASEAssignment.IfElseTest.ElseCommand_HandlesValidParameters()
+  type: Method
+  source:
+    remote:
+      path: MSTestASEAssignment/IfElseTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SuddatShakya847.git
+    id: ElseCommand_HandlesValidParameters
+    path: ../MSTestASEAssignment/IfElseTest.cs
+    startLine: 71
+  assemblies:
+  - MSTestASEAssignment
+  namespace: MSTestASEAssignment
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void ElseCommand_HandlesValidParameters()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub ElseCommand_HandlesValidParameters()
+  overload: MSTestASEAssignment.IfElseTest.ElseCommand_HandlesValidParameters*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: MSTestASEAssignment
+  commentId: N:MSTestASEAssignment
+  href: MSTestASEAssignment.html
+  name: MSTestASEAssignment
+  nameWithType: MSTestASEAssignment
+  fullName: MSTestASEAssignment
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MSTestASEAssignment.IfElseTest.IfCommand_ExecutesConditionTrue*
+  commentId: Overload:MSTestASEAssignment.IfElseTest.IfCommand_ExecutesConditionTrue
+  href: MSTestASEAssignment.IfElseTest.html#MSTestASEAssignment_IfElseTest_IfCommand_ExecutesConditionTrue
+  name: IfCommand_ExecutesConditionTrue
+  nameWithType: IfElseTest.IfCommand_ExecutesConditionTrue
+  fullName: MSTestASEAssignment.IfElseTest.IfCommand_ExecutesConditionTrue
+- uid: MSTestASEAssignment.IfElseTest.IfCommand_ExecutesConditionFalse*
+  commentId: Overload:MSTestASEAssignment.IfElseTest.IfCommand_ExecutesConditionFalse
+  href: MSTestASEAssignment.IfElseTest.html#MSTestASEAssignment_IfElseTest_IfCommand_ExecutesConditionFalse
+  name: IfCommand_ExecutesConditionFalse
+  nameWithType: IfElseTest.IfCommand_ExecutesConditionFalse
+  fullName: MSTestASEAssignment.IfElseTest.IfCommand_ExecutesConditionFalse
+- uid: MSTestASEAssignment.IfElseTest.ElseCommand_ChecksInvalidParameters*
+  commentId: Overload:MSTestASEAssignment.IfElseTest.ElseCommand_ChecksInvalidParameters
+  href: MSTestASEAssignment.IfElseTest.html#MSTestASEAssignment_IfElseTest_ElseCommand_ChecksInvalidParameters
+  name: ElseCommand_ChecksInvalidParameters
+  nameWithType: IfElseTest.ElseCommand_ChecksInvalidParameters
+  fullName: MSTestASEAssignment.IfElseTest.ElseCommand_ChecksInvalidParameters
+- uid: MSTestASEAssignment.IfElseTest.ElseCommand_ExecutesCorrectly*
+  commentId: Overload:MSTestASEAssignment.IfElseTest.ElseCommand_ExecutesCorrectly
+  href: MSTestASEAssignment.IfElseTest.html#MSTestASEAssignment_IfElseTest_ElseCommand_ExecutesCorrectly
+  name: ElseCommand_ExecutesCorrectly
+  nameWithType: IfElseTest.ElseCommand_ExecutesCorrectly
+  fullName: MSTestASEAssignment.IfElseTest.ElseCommand_ExecutesCorrectly
+- uid: MSTestASEAssignment.IfElseTest.ElseCommand_HandlesValidParameters*
+  commentId: Overload:MSTestASEAssignment.IfElseTest.ElseCommand_HandlesValidParameters
+  href: MSTestASEAssignment.IfElseTest.html#MSTestASEAssignment_IfElseTest_ElseCommand_HandlesValidParameters
+  name: ElseCommand_HandlesValidParameters
+  nameWithType: IfElseTest.ElseCommand_HandlesValidParameters
+  fullName: MSTestASEAssignment.IfElseTest.ElseCommand_HandlesValidParameters

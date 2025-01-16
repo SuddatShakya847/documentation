@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ase_assignment
+  commentId: N:ase_assignment
+  id: ase_assignment
+  children:
+  - ase_assignment.AppCanvas
+  langs:
+  - csharp
+  - vb
+  name: ase_assignment
+  nameWithType: ase_assignment
+  fullName: ase_assignment
+  type: Namespace
+  assemblies:
+  - ASE Assignment
+references:
+- uid: ase_assignment.AppCanvas
+  commentId: T:ase_assignment.AppCanvas
+  href: ase_assignment.AppCanvas.html
+  name: AppCanvas
+  nameWithType: AppCanvas
+  fullName: ase_assignment.AppCanvas

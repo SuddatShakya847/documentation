@@ -1,0 +1,456 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment.GloabalConfig
+  commentId: T:ASE_Assignment.GloabalConfig
+  id: GloabalConfig
+  parent: ASE_Assignment
+  children:
+  - ASE_Assignment.GloabalConfig.IsFillEnabled
+  - ASE_Assignment.GloabalConfig.MaxX
+  - ASE_Assignment.GloabalConfig.MaxY
+  - ASE_Assignment.GloabalConfig.PenSize
+  langs:
+  - csharp
+  - vb
+  name: GloabalConfig
+  nameWithType: GloabalConfig
+  fullName: ASE_Assignment.GloabalConfig
+  type: Class
+  source:
+    remote:
+      path: ASE Assignment/components/GloabalConfig.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SuddatShakya847.git
+    id: GloabalConfig
+    path: components/GloabalConfig.cs
+    startLine: 11
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  summary: Represents a global configuration class that maintains the application's global state.
+  example: []
+  syntax:
+    content: public class GloabalConfig
+    content.vb: Public Class GloabalConfig
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ASE_Assignment.GloabalConfig.IsFillEnabled
+  commentId: P:ASE_Assignment.GloabalConfig.IsFillEnabled
+  id: IsFillEnabled
+  parent: ASE_Assignment.GloabalConfig
+  langs:
+  - csharp
+  - vb
+  name: IsFillEnabled
+  nameWithType: GloabalConfig.IsFillEnabled
+  fullName: ASE_Assignment.GloabalConfig.IsFillEnabled
+  type: Property
+  source:
+    remote:
+      path: ASE Assignment/components/GloabalConfig.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SuddatShakya847.git
+    id: IsFillEnabled
+    path: components/GloabalConfig.cs
+    startLine: 20
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  summary: Gets or sets the filled status, which determines whether shapes should be filled or not.
+  example: []
+  syntax:
+    content: public static bool IsFillEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: >-
+        A boolean value indicating the filled status. 
+
+        The default value is <code>false</code>.
+    content.vb: Public Shared Property IsFillEnabled As Boolean
+  overload: ASE_Assignment.GloabalConfig.IsFillEnabled*
+- uid: ASE_Assignment.GloabalConfig.MaxX
+  commentId: P:ASE_Assignment.GloabalConfig.MaxX
+  id: MaxX
+  parent: ASE_Assignment.GloabalConfig
+  langs:
+  - csharp
+  - vb
+  name: MaxX
+  nameWithType: GloabalConfig.MaxX
+  fullName: ASE_Assignment.GloabalConfig.MaxX
+  type: Property
+  source:
+    remote:
+      path: ASE Assignment/components/GloabalConfig.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SuddatShakya847.git
+    id: MaxX
+    path: components/GloabalConfig.cs
+    startLine: 40
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  syntax:
+    content: public static int MaxX { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property MaxX As Integer
+  overload: ASE_Assignment.GloabalConfig.MaxX*
+- uid: ASE_Assignment.GloabalConfig.MaxY
+  commentId: P:ASE_Assignment.GloabalConfig.MaxY
+  id: MaxY
+  parent: ASE_Assignment.GloabalConfig
+  langs:
+  - csharp
+  - vb
+  name: MaxY
+  nameWithType: GloabalConfig.MaxY
+  fullName: ASE_Assignment.GloabalConfig.MaxY
+  type: Property
+  source:
+    remote:
+      path: ASE Assignment/components/GloabalConfig.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SuddatShakya847.git
+    id: MaxY
+    path: components/GloabalConfig.cs
+    startLine: 62
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  syntax:
+    content: public static int MaxY { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property MaxY As Integer
+  overload: ASE_Assignment.GloabalConfig.MaxY*
+- uid: ASE_Assignment.GloabalConfig.PenSize
+  commentId: P:ASE_Assignment.GloabalConfig.PenSize
+  id: PenSize
+  parent: ASE_Assignment.GloabalConfig
+  langs:
+  - csharp
+  - vb
+  name: PenSize
+  nameWithType: GloabalConfig.PenSize
+  fullName: ASE_Assignment.GloabalConfig.PenSize
+  type: Property
+  source:
+    remote:
+      path: ASE Assignment/components/GloabalConfig.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SuddatShakya847.git
+    id: PenSize
+    path: components/GloabalConfig.cs
+    startLine: 78
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  syntax:
+    content: public static int PenSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property PenSize As Integer
+  overload: ASE_Assignment.GloabalConfig.PenSize*
+references:
+- uid: ASE_Assignment
+  commentId: N:ASE_Assignment
+  href: ASE_Assignment.html
+  name: ASE_Assignment
+  nameWithType: ASE_Assignment
+  fullName: ASE_Assignment
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Assignment.GloabalConfig.IsFillEnabled*
+  commentId: Overload:ASE_Assignment.GloabalConfig.IsFillEnabled
+  href: ASE_Assignment.GloabalConfig.html#ASE_Assignment_GloabalConfig_IsFillEnabled
+  name: IsFillEnabled
+  nameWithType: GloabalConfig.IsFillEnabled
+  fullName: ASE_Assignment.GloabalConfig.IsFillEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ASE_Assignment.GloabalConfig.MaxX*
+  commentId: Overload:ASE_Assignment.GloabalConfig.MaxX
+  href: ASE_Assignment.GloabalConfig.html#ASE_Assignment_GloabalConfig_MaxX
+  name: MaxX
+  nameWithType: GloabalConfig.MaxX
+  fullName: ASE_Assignment.GloabalConfig.MaxX
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: ASE_Assignment.GloabalConfig.MaxY*
+  commentId: Overload:ASE_Assignment.GloabalConfig.MaxY
+  href: ASE_Assignment.GloabalConfig.html#ASE_Assignment_GloabalConfig_MaxY
+  name: MaxY
+  nameWithType: GloabalConfig.MaxY
+  fullName: ASE_Assignment.GloabalConfig.MaxY
+- uid: ASE_Assignment.GloabalConfig.PenSize*
+  commentId: Overload:ASE_Assignment.GloabalConfig.PenSize
+  href: ASE_Assignment.GloabalConfig.html#ASE_Assignment_GloabalConfig_PenSize
+  name: PenSize
+  nameWithType: GloabalConfig.PenSize
+  fullName: ASE_Assignment.GloabalConfig.PenSize
